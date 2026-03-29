@@ -155,4 +155,3 @@ elif page == "🚚 Logistics Optimization":
             folium.PolyLine(route).add_to(m)
 
             st.components.v1.html(m._repr_html_(), height=500)
-```
